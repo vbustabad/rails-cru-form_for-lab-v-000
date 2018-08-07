@@ -28,7 +28,7 @@ class GenresController < ApplicationController
 
   private
 
-  def post_params(*args)
+  def genre_params(*args)
     params.require(:genre).permit(*args)
   end
 
