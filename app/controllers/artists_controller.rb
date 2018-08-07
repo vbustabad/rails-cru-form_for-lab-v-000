@@ -28,7 +28,7 @@ class ArtistsController < ApplicationController
 
   private
 
-  def post_params(*args)
+  def genre_params(*args)
     params.require(:artist).permit(*args)
   end
 
